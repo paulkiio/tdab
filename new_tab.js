@@ -1,10 +1,10 @@
 (function () {
-    let url = "http://quotes.rest/qod.json";
+    let url = "https://api.quotable.io/random";
 
     fetch(url)
         .then(data => { return data.json() })
-        .then(res => {
+        .then(response => {
             let quoteElm = document.getElementById("quote");
-            quoteElm.textContent = res.contents.quotes[0].quote;
+            quoteElm.textContent = response.content;
         })
 })();

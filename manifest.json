@@ -15,7 +15,7 @@
     },
     "permissions": [
         "https://source.unsplash.com/",
-        "http://quotes.rest/qod.json"
+        "https://api.quotable.io/random"
     ],
     "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
