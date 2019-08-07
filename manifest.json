@@ -3,6 +3,7 @@
     "name": "tdab",
     "description": "New tab with flavor",
     "author": "Paul Wathome",
+    "homepage_url": "http://paulwathome.com",
     "version": "0.1.0",
     "chrome_url_overrides": {
         "newtab": "new_tab.html"
