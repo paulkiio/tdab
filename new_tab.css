@@ -9,3 +9,16 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.quote {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 15%;
+}
+
+h1#quote {
+    font-family: 'Candal', serif;
+    text-shadow: 2px 2px 3px rgb(150, 150, 150, 0.75);
+}
